@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Elite.master.cs" Inherits="ELITEHOSTEL.Elite" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Elite.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="grid">
+            <div class="header">
+                <h1>
+                    <asp:Image ID="Image1" runat="server" ImageAlign="Left" ImageUrl="Images/log.png" />
+                </h1>
+                <h1>ELITE HOSTELS MANAGEMENT SYSTEM</h1>
+            </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+            <div class="footer">
+                <p>Designed By EDMOND PATRICK KEVIN AND STEVE</p>
+                <p>&copy 2022 All Rights Reserved</p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,88 @@
+﻿body {
+}
+
+.grid {
+    padding: 0 10px;
+    display: grid;
+    gap: .1em;
+    background-color: firebrick;
+    grid-template-areas:
+        "head head head head"
+        "top top top top"
+        "center center center center"
+        "left left left left"
+        "right right right right";
+}
+
+.header {
+    grid-area: head;
+    text-align: center;
+    color: yellow;
+}
+
+.nav {
+    grid-area: top;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: teal;
+    margin-top: -20px;
+    height: 50px;
+}
+
+.main {
+    grid-area: left;
+    text-align: center;
+    background-color: white;
+    min-height: 450px;
+  
+}
+
+.footer {
+    grid-area: right;
+    clear: both;
+    text-align: center;
+    color:yellow;
+}
+
+ol {
+    text-decoration: none;
+    display: block;
+    height: fit-content;
+    color: white;
+}
+
+ul {
+    text-decoration: none;
+    display: block;
+    
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+}
+
+.Image1 {
+    border-radius: 0;
+    margin-top: -320px;
+}
+
+.aside {
+    grid-area: center;
+    min-height: 150px;
+}
+
+.Menu1 {
+    margin: auto 500px 0 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+img {
+    border-radius: 70px;
+}

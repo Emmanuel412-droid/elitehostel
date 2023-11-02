@@ -1,0 +1,94 @@
+﻿
+body {
+}
+
+img {
+    border-radius: 150px;
+    height: 100px;
+    width: 100px;
+}
+
+.LOgin1 {
+    background-color: aqua;
+}
+
+.wrapper {
+    width: 40%;
+    margin: 100px auto;
+    border-radius: 5px;
+    height: fit-content;
+    background-color:teal;
+}
+
+textarea, select, input[type=email], input[type=password], input[type=name], input[type=date], input[type=text] {
+    text-align: center;
+    width: 80%;
+    color: blue;
+    background-color: white;
+    float: center;
+    cursor: wait;
+    margin: auto;
+    border: 1px solid red;
+}
+
+
+    textarea, select:invalid {
+        border: 1px solid red;
+        border-radius: 3px;
+        color: red;
+    }
+
+    textarea, select:valid {
+        border: 1px solid green;
+        border-radius: 3px;
+        color: green;
+    }
+
+input:invalid {
+    border: 1px solid red;
+    border-radius: 3px;
+    color: red;
+}
+
+input:valid {
+    border: 1px solid green;
+    border-radius: 3px;
+    color: green;
+}
+
+input[type=submit], input[type=reset] {
+    background-color: firebrick;
+    color: yellow;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid teal;
+}
+
+.label {
+    text-align: justify;
+    color: black;
+    margin: 10px;
+}
+
+.textbox {
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.required {
+    border: 1px solid red;
+    color: red;
+}
+
+.button {
+    width: 81%;
+    background-color: red;
+    color: yellow;
+    margin-left: -2px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid blue;
+    mask-size: 200% 50%;
+}
